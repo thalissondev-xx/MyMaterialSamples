@@ -13,13 +13,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:foreground="?selectableItemBackground"
         card_view:cardCornerRadius="2dp">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
                 android:layout_marginTop="16dp"
@@ -64,6 +64,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:stateListAnimator="@animator/lift_on_touch"
+        android:foreground="?selectableItemBackground"
         card_view:cardCornerRadius="2dp">
 
         <LinearLayout
