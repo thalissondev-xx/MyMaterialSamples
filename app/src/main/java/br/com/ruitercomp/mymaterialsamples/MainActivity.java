@@ -14,10 +14,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button = (Button) findViewById(R.id.button);
+        Button button2 = (Button) findViewById(R.id.button2);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SimpleToolbar.class));
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, CardViewFiltro.class));
             }
         });
     }

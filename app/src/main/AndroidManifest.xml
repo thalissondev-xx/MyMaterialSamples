@@ -15,10 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".SimpleToolbar"
             android:theme="@style/MyMaterialTheme">
+
+        </activity>
+        <activity
+            android:name=".CardViewFiltro"
+            android:label="Card Filtro">
 
         </activity>
     </application>
