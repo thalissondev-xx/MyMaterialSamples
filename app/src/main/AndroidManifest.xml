@@ -17,11 +17,20 @@
         </activity>
         <activity
             android:name=".SimpleToolbar"
-            android:theme="@style/MyMaterialTheme"></activity>
+            android:theme="@style/MyMaterialTheme">
+
+        </activity>
         <activity
             android:name=".CardViewFiltro"
-            android:label="Card Filtro"></activity>
-        <activity android:name=".CardViewFretes"></activity>
+            android:label="Card Filtro">
+
+        </activity>
+
+        <activity
+            android:name=".CardViewFretes"
+            android:label="Card Fretes">
+
+        </activity>
     </application>
 
 </manifest>
