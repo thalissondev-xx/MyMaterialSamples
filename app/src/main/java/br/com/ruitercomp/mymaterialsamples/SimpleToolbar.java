@@ -2,9 +2,11 @@ package br.com.ruitercomp.mymaterialsamples;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
 
 public class SimpleToolbar extends AppCompatActivity {
 
@@ -20,6 +22,14 @@ public class SimpleToolbar extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        CardView card_view = (CardView) findViewById(R.id.card_view);
+
+        card_view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 
     @Override

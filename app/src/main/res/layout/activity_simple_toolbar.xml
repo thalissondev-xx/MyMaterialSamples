@@ -48,20 +48,17 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/white">
+            android:background="@color/white"
+            android:padding="16dp">
+
             <TextView
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
+
                 android:id="@+id/titulo"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="563 fretes há 80km de Sao Jose do Rio Preto/SP"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="563 fretes há 80km de Campinas/SP"
                 android:textColor="@color/black"
                 android:textSize="16sp"/>
-
-
 
         </LinearLayout>
 
